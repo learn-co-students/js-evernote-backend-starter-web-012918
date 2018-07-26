@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+input[type=submit] {
+  background-color: lightblue;
+}
+
+input[type=submit] hover {
+  background-color: blue;
+}
+
+textarea {
+  width: 50%
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: lightblue;
+}
+
+h1 {
+  text-decoration: underline;
+}
