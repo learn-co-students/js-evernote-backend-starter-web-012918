@@ -7,6 +7,7 @@ class Api::V1::NotesController < ApplicationController
   end
 
   def create
+    # byebug
     note = Note.create(note_params)
     render json: note, status: 201
   end
